@@ -1,0 +1,293 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html  lang="fr" class="">
+	<head>
+		<meta charset="utf-8">
+		<title>AssuLab - Accueil</title>
+		<meta name="description" content="Site de pr?sentation de l'?quipe AssuLab">
+		<meta name="author" content="AssuLab">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<!-- Font Awesome CSS -->
+		<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Swiper CSS file -->
+		<link rel="stylesheet" href="css/idangerous.swiper.css">
+		
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="plugins/vegas/vegas.min.css"/>
+		<link rel="stylesheet" href="./main.css"/>
+	</head>
+	<body class="overlay-hidden overlay-under ">
+		<a href="#menu" class="js-slideout-toggle" id="toggle" ><span></span></a>
+		<nav id="navigation-overlay">
+			<ul>
+				<li><span>L'assulab<img class="logo-img" src="images/logo.png"/></span></li>
+				<li><a  class="nav-item scroll-to" href="#screen1">Accueil</a></li>
+				<li><a  class="nav-item scroll-to" href="#screen2">Présentation</a></li>
+				<li><a  class="nav-item scroll-to" href="#screen3">L'équipe</a></li>
+				<li><a  class="nav-item scroll-to" href="#screen4">Les projets</a></li>
+				<li><a  class="nav-item scroll-to" href="#screen5">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="ie-unsupported" >
+		</div>
+		<div class="site-wrap">
+
+			<!--
+			-------------------------- SCREEN 1 ----------------------------
+			-->
+			<div id="screen1" data-section-name="screen1" class="box">
+				<video id="videobcg" autoplay loop> //EDIT: loop="true" and  autoplay="autoplay" are deprecated
+				  <source src="video/bg_nosound.mp4" type="video/mp4" />
+				  Your browser does not support the video tag.
+				</video>
+				<img id="main-title" src="images/title.png" />
+				<a style="opacity: 1;" class="arrow-wrap scroll-to" href="#screen2">
+					<span class="arrow"></span>
+				</a>
+			</div>
+			<!--
+			-------------------------- SCREEN 2 ----------------------------
+			-->
+			<div id="screen2" data-section-name="screen2" class="box" >
+				<div class="swiper-button-prev presentation-button-prev swiper-button-white"></div>
+				<div class="swiper-button-next presentation-button-next swiper-button-white"></div>
+				<h1>Présentation</h1>
+				<div class="presentation-pagination">
+					<a class="presentation-arianne arianne-active" data-arianneitem="1" data-pagename="Qui nous sommes?">1</a>
+					<a class="presentation-arianne" data-arianneitem="2" data-pagename="Nos compétences">2</a>
+					<a class="presentation-arianne" data-arianneitem="3" data-pagename="1. Prendre un rendez-vous">3</a>
+					<a class="presentation-arianne" data-arianneitem="4" data-pagename="2. Votre projet">4</a>
+					<a class="presentation-arianne" data-arianneitem="5" data-pagename="3. Nous vos proposons une solution">5</a>
+					<a class="presentation-arianne" data-arianneitem="6" data-pagename="4. Nous réalisons un P.O.C.">6</a>
+					<hr class="presentation-arianne-hr"></hr>
+				</div>
+				<div class="swiper-container presentation-container">
+					<div class="parallax-bg"></div>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide presentation-slide" data-arianne="1" >
+							<div class="title">Qui sommes nous <i class="fa fa-question-circle"></i></div>
+							<div class="text">
+								<p>L'AssuLab est une équipe avec des forces pluridisciplinaires (ingénieurs, designers, ergonomes) qui a une appétence pour le Web, le digital, et qui a pour finalité la Transition Numérique.</p>
+								<p>L'équipe du Lab a vu le jour lors du dernier hackaton interne Société Générale à l'école 42, en présentant deux projets : FireSG et SGDrive, se classant respectivement 1er et 5eme.</p>
+								<p>Aujourd'hui le Lab vient en aide à toutes les métiers ASSU en apportant ses compétences, son expertise et tout ça de manière agile.</p>
+							</div>
+						</div>
+						<div class="swiper-slide presentation-slide" data-arianne="2">
+							<div class="title" >Nos compétences <i class="fa fa-cog"></i></div>
+							<div class="text" >
+								Application mobile (Windows, iOS, Android)<br/>
+								Desktop<br/>
+								Sites Web<br/>
+								Montage et réalisation vidéos
+							</div>
+						</div>
+						<div class="swiper-slide presentation-slide" data-arianne="3">
+							<div class="title" >1. Prendre un rendez-vous <i class="fa fa-calendar"></i></div>
+							<div class="text" >
+								<p>Vous voulez contacter le Lab ? Envoyez un mail à <a class="text-link" href="mailto:lab.assu@socgen.com?subject=Prise de rendez-vous">lab.assu@socgen.com</a>, nous vous contacterons dans les meilleurs délais afin de vous proposer plusieurs dates possibles pour que nous nous rencontrions et que vous nous expliquiez votre projet.</p>
+							</div>
+						</div>
+						<div class="swiper-slide presentation-slide" data-arianne="4">
+							<div class="title"  >2. Votre projet <i class="fa fa-comments"></i></div>
+							<div class="text" >
+								<p>Durant ce rendez-vous, nous allons chercher à comprendre votre besoin et trouver les solutions les plus adaptées a votre problématique. Pour ce faire, en amont du rendez-vous, vous devez  formaliser votre demande par écrit en nous communiquant des documents tel qu'un cahier des charges, des maquettes, une ébauche de projet... </p>
+							</div>
+						</div>
+						<div class="swiper-slide presentation-slide" data-arianne="5">
+							<div class="title"  >3. Nous vos proposons une solution <i class="fa fa-users"></i></div>
+							<div class="text" >
+								<p>Suite à notre rencontre, le Lab va amener son expertise et vous proposer des solutions techniques pour votre projet.</p>
+							</div>
+						</div>
+						<div class="swiper-slide presentation-slide" data-arianne="6">
+							<div class="title"  >4. Nous réalisons un P.O.C. <i class="fa fa-play"></i></div>
+							<div class="text" >
+								<p>La démarche du Lab est de vous accompagner tout au long du processus Projet en organisants des points de suivi réguliers et en restant à l'écoute de vos besoins tout en apportant son expérience et son savoir-faire technique. </p>
+							</div>
+						</div>
+					</div>
+					<!-- Add Pagination -->
+				</div>
+			</div>
+			<!--
+			-------------------------- SCREEN 3 ----------------------------
+			-->
+			<div id="screen3" data-section-name="screen3" class="box">
+					<div class="team-button-prev swiper-button-prev swiper-button-white"></div>
+					<div class="team-button-next swiper-button-next swiper-button-white"></div>
+				<!-- Slider main container -->
+				<h1>L'équipe AssuLab</h1>
+				<div class="swiper-container people">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper people-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/mickael.jpg"/ class="profilpic"> <h3>Mickael Benhassen</h3><h4>Le chef du village</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/romain.jpg"/ class="profilpic"> <h3>Romain Deudé</h3><h4>El Maestro</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/manu.jpg"/ class="profilpic"> <h3>Emmanuelle Mouthe</h3><h4>La globe trotteuse</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/annelaure.jpg"/ class="profilpic"> <h3>Anne-Laure Trabon</h3><h4>Grincheux</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/kevin.jpg"/ class="profilpic"> <h3>Kevin Briffaut</h3><h4>Littoretapeuthe</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/thibault.jpg"/ class="profilpic"> <h3>Thibault Drevon</h3><h4>Druide Designer</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/amelie.jpg"/ class="profilpic"> <h3>Amélie Kirsch</h3><h4>Druide Designeuse</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/fabien.jpg"/ class="profilpic"> <h3>Fabien Labrousse</h3><h4>Roux de secours</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/guillaume.jpg"/ class="profilpic"> <h3>Guillaume Bakaga</h3><h4>Le Norvégien</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/gautam.jpg"/ class="profilpic"> <h3>Gautam Botrel</h3><h4>Tic</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/aurelien.jpg"/ class="profilpic"> <h3>Aurélien Sberro</h3><h4>Tac</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/damien.jpg"/ class="profilpic"> <h3>Damien Perez</h3><h4>The Actuaire</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/stephane.jpg"/ class="profilpic"> <h3>Stéphane Le</h3><h4>Ninja en jean's</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/zahir.jpg"/ class="profilpic"> <h3>Zahir Moussi</h3><h4>Cachou</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/jeanluc.jpg"/ class="profilpic"> <h3>Jean-Luc Lallement</h3><h4>La barre de fer</h4></div></div>
+						<div class="swiper-slide people-slide"><div class="polaroid"><img src="images/trombi/yassin.jpg"/ class="profilpic"> <h3>Yassin Mentagui</h3><h4>Sniper</h4></div></div>
+					</div>
+					
+					<!-- If we need navigation buttons -->
+				</div>
+			</div>	
+			<!--
+			-------------------------- SCREEN 4 ----------------------------
+			-->
+			<div id="screen4" data-section-name="screen4" class="box">
+				<h1>Nos projets</h1>
+				
+						<div class="project-button-next swiper-button-next swiper-button-white"></div>
+						<div class="project-button-prev swiper-button-prev swiper-button-white"></div>		
+					<!-- Swiper -->
+					<div class="swiper-container gallery-top">
+						<div class="swiper-wrapper project-wrapper">
+							<div class="swiper-slide">
+								<div class="project-inner project-image bg-crop bg-center" style="background-image:url(images/compx.png)"></div>
+								<div class="project-inner project-text">
+									<div class="project-text-center">
+										<h2>CompareX</h2>
+										<p>CompareX est un outil novateur de comparaison de fichier Excel.</p>
+										<p>Aucune solution sur le marché ne permet d’analyser et de comparer les cellules et le code VBA de manière aussi simple.</p>
+										<p>CompareX utilise un cloud computing d’une grande puissance (les mêmes systèmes utilisés par MetéoFrance !).</p>
+										<p>Il suffit de donner deux versions d’un même fichier Excel, de sélectionner les onglets à comparer et de laisser faire le système.</p>
+										<p>Il en ressort une comparaison graphique simplifiée permettant une analyse rapide et très performante !</p>
+										<p>Tester c’est l’adopter.</p>
+										
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="project-inner project-image bg-crop bg-center" style="background-image:url(images/sgdrive.png)"></div>
+								<div class="project-inner project-text">
+									<div class="project-text-center">
+										<h2>Star Drive</h2>
+										<p>StarDrive est une application primée lors du dernier Hackathon Interne SG (5ème place), compatible iOS et Android.</p>
+										<p>L’Application est un coach de conduite.  L’Application permet à l’Utilisateur :</p>
+										<ul>
+											<li>D’évaluer son comportement au volant et d’obtenir un score de conduite, par l’octroi d’une note /100 ,
+											<li>De recevoir des conseils de conduite pour adopter une conduite prudente
+											<li>De comparer, s’il le souhaite, son score à celui obtenu par les  autres Utilisateurs de l’Application
+											<li>De partager des trajets, des scores et autres évènements avec d’autres utilisateurs, ainsi que sur les réseaux sociaux, sous réserve d’avoir créé un compte utilisateur en se connectant via les réseaux sociaux (Facebook)
+											<li>D’obtenir des badges valorisant sa conduite
+											<li>De participer, s’il le souhaite, à des jeux concours ou un Challenge avec les autres Utilisateurs permettant l’acquisition de points selon un barème consultable dans le règlement.
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="project-inner project-image bg-crop bg-center" style="background-image:url(images/firesg.png)"></div>
+								<div class="project-inner project-text">
+									<div class="project-text-center">
+										<h2>FireSG</h2>
+										<p>Application primée lors du dernier Hackathon interne Société Générale à l’école 42.</p>
+										<p>FireSG est une application à destination des collaborateurs Société Générale.</p>
+										<p>Deux fonctionnalités majeures :</p>
+										<ul>
+											<li>Naviguer : Permet de se déplacer à l’intérieur de D2 et de naviguer très facilement entre les différents étages et services.</li>
+											<li>En réunion : Permet de créer des salles de réunions virtuelles et de pouvoir prendre des notes ainsi que de les envoyer à tous les participants.</li>
+										</ul>
+										<p>Vous pouvez également envoyer des supports de réunions/présentations à tous les participants connectés à la salle virtuelle.</p>
+										<p>Sécurité : Toutes les salles virtuelles sont crée par l’organisateur de la réunion qui sera sécurisée par un mot de passe.</p>
+										<p>FireSG est amené à s’enrichir de jour en jour.</p>
+										<p>Petite précision qui à son importance, cela fonctionne entièrement sans Wifi.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="project-inner project-image bg-crop bg-center" style="background-image:url(images/qbox.png)"></div>
+								<div class="project-inner project-text">
+									<div class="project-text-center">
+										<h2>Qbox</h2>
+										<p>
+											Qbox est un site web qui a été développé pour la dernière journée d’intégration ASSU du 10 Décembre 2015.
+										</p>
+										<p>
+											Qbox proposait plusieurs fonctionnalités :
+										</p>
+										<ul>
+											<li> Une gestion de diffusion des supports de présentation : Donner accès sur toutes les tablettes « Compagnon » aux supports de présentation au moment opportun. </li>
+											<li> Un fonctionnalité Questions/Réponses : Les participants pouvaient poser des questions de manières anonyme à Philippe PERRET. </li>
+											<li> Un jeu « Qui veut gagner des millions » qui avait pour but de digitaliser et de rendre dynamique le « Jeu Produit ». </li>
+											<li> Un Ewall : Affichage des photos des participants, affichage en temps réel des réponses et des statistiques du « Jeu Produit ». </li>
+											<li> Un Quiz sur l’ensemble des informations retenues sur la journée </li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="project-inner project-image bg-crop bg-center" style="background-image:url(images/styx.png)"></div>
+								<div class="project-inner project-text">
+									<div class="project-text-center">
+										<h2>Styx</h2>
+										<p> Dans la mythologie grecque, Styx est une rivière qui sépare le monde terrestre des Enfers. A Sogecap elle permet  aux utilisateurs de toucher les nuages ! </p>
+										<p> C'est une application qui permet en un click de lancer des milliers de calculs intensifs sur plus de 1300 coeurs de processeur. </p>
+										<p> Aujourd'hui,  grâce à Styx les actuaire peuvent réaliser des simulations financières, des analyses actuarielles et des rapports financiers rapidement et en toute sécurité. </p>
+										<p> Pour répondre aux besoins croissants des utilisateurs, Styx peut dynamiquement étendre ses capacités de calculs à 5000 coeurs en utilisant le cloud de Microsoft. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Add Arrows -->
+						<!-- Custom pagination -->
+						<div class="project-pagination"></div>
+					</div>
+				</div>
+			<!--
+			-------------------------- SCREEN 5 ----------------------------
+			-->
+			<div id="screen5" data-section-name="screen5" class="box">
+				<h1>Contactez nous !</h1> 
+				<div class="footer">
+					<div class="space"></div>
+					<div class="footer-content text-center">
+						<p><i class="fa fa-map-marker footer-icon"></i> <span class="footer-heading">Tour D2, 7eme étage, bureau 082</span></p>
+						<p><i class="fa-custom fa fa-envelope footer-icon"></i> <span class="footer-heading"><a class="nice-link" href="mailto:lab.assu@socgen.com">lab.assu@socgen.com</a></span></p>
+						<p><i class="fa-custom fa fa-phone footer-icon"></i> <span class="footer-heading">Nous appeler: 01.57.61.81.34</span></p>
+					</div>
+					<div class="footer-content text-center">
+						<img class="footer-image" src="images/assulab.png"></img>
+					</div>
+				</div>
+				<!-- .footer end -->
+
+				<!-- .subfooter start -->
+				<!-- ================ -->
+				<div class="subfooter">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="copyright">Copyright © 2015 AssuLab.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<!-- JavaScript files placed at the end of the document so the pages load faster
+												================================================== -->
+			<!-- Jquery and Bootstap core js files -->
+			<script type="text/javascript" src="plugins/jquery.min.js"></script>
+			<script type="text/javascript" src="plugins/jquery.scroll_to.js"></script>
+			<script type="text/javascript" src="plugins/jquery.snapscroll.min.js"></script>
+			<script type="text/javascript" src="plugins/vegas/vegas.min.js"></script>
+			<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+			<!-- Swiper js file -->
+			<script src="js/idangerous.swiper.min.js"></script>
+			<!-- Modernizr javascript -->
+			<script type="text/javascript" src="plugins/modernizr.js"></script>
+			<script src="main.js"></script>
+		</div>
+	</body>
+</html>

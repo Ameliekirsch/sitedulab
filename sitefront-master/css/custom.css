@@ -1,0 +1,295 @@
+/*
+	Theme Name: Worthy - Free Powerful Theme by HtmlCoder
+	Author:HtmlCoder
+	Author URI:http://www.htmlcoder.me
+	Version:1.0.0
+	Created:November 2014
+	License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
+	File Description: Place here your custom CSS styles
+*/
+#header {
+  position: fixed;
+  z-index: 160;
+  height: 100%;
+}
+#nav-logo-absolute {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#menu {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  line-height: 1;
+}
+#menu ul,
+#menu ul li,
+#menu ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu ul {
+  position: relative;
+  z-index: 597;
+  float: left;
+}
+#menu ul li {
+  float: left;
+  min-height: 1px;
+  line-height: 1em;
+  vertical-align: middle;
+  position: relative;
+}
+#menu ul li.hover,
+#menu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+#menu ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  z-index: 598;
+  width: 100%;
+}
+#menu ul ul li {
+  float: none;
+}
+#menu ul ul ul {
+  top: -2px;
+  right: 0;
+}
+#menu ul li:hover > ul {
+  visibility: visible;
+}
+#menu ul ul {
+  top: 1px;
+  left: 99%;
+}
+#menu ul li {
+  float: none;
+}
+#menu ul ul {
+  margin-top: 1px;
+}
+#menu ul ul li {
+  font-weight: normal;
+}
+/* Custom CSS Styles */
+#menu {
+  width: 80px;
+  background: #333333;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+  zoom: 1;
+  font-size: 12px;
+  height: 100%;
+}
+#menu:before {
+  content: '';
+  display: block;
+}
+#menu:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#menu a {
+  display: block;
+  padding: 25px 5px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+#menu > ul {
+  width: 80px;
+}
+#menu ul ul {
+  width: 80px;
+}
+#menu > ul > li > a {
+  color: #ffffff;
+}
+#menu > ul > li > a:hover {
+  color: #ffffff;
+}
+#menu > ul > li.active a {
+  background: #D91414;
+}
+#menu > ul > li a:hover,
+#menu > ul > li:hover a {
+  background: #D91414;
+}
+#menu li {
+  position: relative;
+}
+#menu ul li.has-sub > a:after {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -6px;
+}
+#menu ul ul li.first {
+  -webkit-border-radius: 0 3px 0 0;
+  -moz-border-radius: 0 3px 0 0;
+  border-radius: 0 3px 0 0;
+}
+#menu ul ul li.last {
+  -webkit-border-radius: 0 0 3px 0;
+  -moz-border-radius: 0 0 3px 0;
+  border-radius: 0 0 3px 0;
+  border-bottom: 0;
+}
+#menu ul ul {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+#menu ul ul {
+  border: 1px solid #0082e7;
+}
+#menu ul ul a {
+  font-size: 12px;
+  color: #ffffff;
+}
+#menu ul ul a:hover {
+  color: #ffffff;
+}
+#menu ul ul li {
+  border-bottom: 1px solid #0082e7;
+}
+#menu ul ul li:hover > a {
+  background: #4eb1ff;
+  color: #ffffff;
+}
+#menu.align-right > ul > li > a {
+  border-left: 4px solid #D91414;
+  border-right: none;
+}
+#menu.align-right {
+  float: right;
+}
+#menu.align-right li {
+  text-align: right;
+}
+#menu.align-right ul li.has-sub > a:before {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  margin-top: -6px;
+}
+#menu.align-right ul li.has-sub > a:after {
+  content: none;
+}
+#menu.align-right ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: 598;
+  width: 100%;
+}
+#menu.align-right ul ul li.first {
+  -webkit-border-radius: 3px 0 0 0;
+  -moz-border-radius: 3px 0 0 0;
+  border-radius: 3px 0 0 0;
+}
+#menu.align-right ul ul li.last {
+  -webkit-border-radius: 0 0 0 3px;
+  -moz-border-radius: 0 0 0 3px;
+  border-radius: 0 0 0 3px;
+}
+#menu.align-right ul ul {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+.carrousel-align {
+  margin: auto;
+}
+.menu-button {
+  background-color: white;
+  position: fixed;
+  z-index: 5000;
+  padding: 10px;
+  display: visible;
+}
+@media (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
+.menu-button i {
+  font-size: 30px;
+}
+.menu-display {
+  color: #000000;
+}
+.menu-display:hover {
+  color: #D91414;
+}
+.media-left span {
+  font-size: 25px;
+}
+.media-heading {
+  display: inline;
+}
+.logo-img {
+  display: inline;
+  width: 100px;
+  margin-left: 10px;
+}
+.footer-heading {
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: top;
+}
+.footer-icon {
+  font-size: 28px;
+  margin-right: 10px;
+}
+/* Calendar CSS */
+.calendar-bg {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: relative;
+}
+.calendar-transparent-overlay {
+  background-color: rgba(255, 255, 255, 0.65);
+}
+.calendar-month {
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.calendar-day {
+  text-align: center;
+}
+.bodybuilder {
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  -webkit-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  -webkit-scroll-snap-type: mandatory;
+  scroll-snap-type: mandatory;
+  -webkit-scroll-snap-points-y: repeat(100vh);
+  scroll-snap-points-y: repeat(100vh);
+}
+.box {
+  height: 100vh;
+  position: relative;
+}
