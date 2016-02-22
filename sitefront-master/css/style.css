@@ -657,6 +657,9 @@ textarea {
 		width: 100%;
 		display: block;
 	}
+	p{
+		font-size: 15px;
+	}
 }
 
 /* Images Overlay
@@ -725,3 +728,4 @@ textarea {
     cursor: not-allowed;
     background-color: #F2DEDE;
 }
+

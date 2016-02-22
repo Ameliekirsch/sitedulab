@@ -151,6 +151,23 @@ a.arrow.upside-down {
 	margin-left: 10%;
 	margin-right: 10%;
 }
+@media (max-width: 600px) {
+	.presentation-arianne {
+		margin: 0px 10px !important;
+	}
+
+	.presentation-pagination {
+		width: 100%;
+		padding-right: 225px !important;
+	}
+	.presentation-slide .title {
+		font-size: 35px;
+	}
+	.presentation-slide .text {
+		font-size: 16px;
+	}
+
+}
 	
 .presentation-slide {
 	text-align: center;
@@ -326,7 +343,6 @@ body{
 	width: 30%;
 	float: left;
 }
-
 .footer-icon {
 	font-size: 15vh;
     display: block;
@@ -368,6 +384,22 @@ body{
   width: 100%;
   height: 100%;
   z-index: -1;
+}
+@media (max-width: 600px){
+	#screen5 p {
+    width: 100%;
+    margin-left: 0;
+	}
+	.footer-icon {
+		margin-top: 10% !important;
+	}
+	.footer-icon {
+		font-size: 8vh !important;
+	}
+	.footer-image{
+		width: 50%;
+		padding-top:30px;
+	}
 }
 @media (min-aspect-ratio: 16/9) {
   #videobcg {
